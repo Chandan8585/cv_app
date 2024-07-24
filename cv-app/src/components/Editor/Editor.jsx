@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { X } from "react-feather";
-
-import InputControl from "../inputControl/inputControl";
-
 import styles from "./Editor.module.css";
+import inputControl from "../inputControl/inputControl";
 
 function Editor(props) {
   const sections = props.sections;

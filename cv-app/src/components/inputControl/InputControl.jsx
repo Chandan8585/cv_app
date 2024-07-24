@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./InputControl.module.css"
-const inputControl = ({label, ...props}) => {
+const InputControl = ({label, ...props}) => {
   return (
     <div className={styles.container}>
       {label && <label>{label}</label>}
@@ -9,4 +9,4 @@ const inputControl = ({label, ...props}) => {
   );
 }
 
-export default inputControl
+export default InputControl
